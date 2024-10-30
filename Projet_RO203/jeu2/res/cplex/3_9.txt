@@ -1,0 +1,9 @@
+-- Resolution of 3_9.txt
+  ---------
+|  2  1  -  |
+|  1  -  3  |
+|  3  2  1  |
+  ---------
+
+solveTime = 0.0012750625610351562
+isOptimal = true

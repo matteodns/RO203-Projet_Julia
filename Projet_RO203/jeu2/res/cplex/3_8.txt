@@ -1,0 +1,6 @@
+-- Resolution of 3_8.txt
+
+La grille n'admet pas de solution
+
+solveTime = 0.0013599395751953125
+isOptimal = false

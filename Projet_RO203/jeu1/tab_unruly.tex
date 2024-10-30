@@ -1,0 +1,174 @@
+\documentclass{article}
+
+\usepackage[french]{babel}
+\usepackage [utf8] {inputenc} % utf-8 / latin1 
+\usepackage{multicol}
+
+\setlength{\hoffset}{-18pt}
+\setlength{\oddsidemargin}{0pt} % Marge gauche sur pages impaires
+\setlength{\evensidemargin}{9pt} % Marge gauche sur pages paires
+\setlength{\marginparwidth}{54pt} % Largeur de note dans la marge
+\setlength{\textwidth}{481pt} % Largeur de la zone de texte (17cm)
+\setlength{\voffset}{-18pt} % Bon pour DOS
+\setlength{\marginparsep}{7pt} % Séparation de la marge
+\setlength{\topmargin}{0pt} % Pas de marge en haut
+\setlength{\headheight}{13pt} % Haut de page
+\setlength{\headsep}{10pt} % Entre le haut de page et le texte
+\setlength{\footskip}{27pt} % Bas de page + séparation
+\setlength{\textheight}{668pt} % Hauteur de la zone de texte (25cm)
+
+\begin{document}
+\begin{center}
+\renewcommand{\arraystretch}{1.4} 
+ \begin{tabular}{lrr}
+	\hline
+ & \multicolumn{2}{c}{\textbf{cplex}}\\
+\textbf{Instance}  & \textbf{Temps (s)} & \textbf{Optimal ?} \\\hline
+
+100x100x05\_1.txt & 1.02548 & true
+\\
+100x100x05\_10.txt & 0.72505 & true
+\\
+100x100x05\_2.txt & 0.0643 & false
+\\
+100x100x05\_3.txt & 0.09048 & false
+\\
+100x100x05\_4.txt & 0.0913 & false
+\\
+100x100x05\_5.txt & 0.7837 & true
+\\
+100x100x05\_6.txt & 0.06894 & false
+\\
+100x100x05\_7.txt & 0.08982 & false
+\\
+100x100x05\_8.txt & 0.07143 & false
+\\
+100x100x05\_9.txt & 0.51177 & true
+\\
+100x100x20\_1.txt & 0.06904 & false
+\\
+100x100x20\_10.txt & 0.06767 & false
+\\
+100x100x20\_2.txt & 0.11087 & false
+\\
+100x100x20\_3.txt & 0.06744 & false
+\\
+100x100x20\_4.txt & 0.10553 & false
+\\
+100x100x20\_5.txt & 0.0649 & false
+\\
+100x100x20\_6.txt & 0.09466 & false
+\\
+100x100x20\_7.txt & 0.07765 & false
+\\
+100x100x20\_8.txt & 0.06834 & false
+\\
+100x100x20\_9.txt & 0.09553 & false
+\\
+100x100x50\_1.txt & 0.08676 & false
+\\
+100x100x50\_10.txt & 0.07328 & false
+\\
+100x100x50\_2.txt & 0.11138 & false
+\\
+100x100x50\_3.txt & 0.07026 & false
+\\
+100x100x50\_4.txt & 0.06933 & false
+\\
+100x100x50\_5.txt & 0.09564 & false
+\\
+100x100x50\_6.txt & 0.07592 & false
+\\
+100x100x50\_7.txt & 0.071 & false
+\\
+100x100x50\_8.txt & 0.10846 & false
+\\
+\hline\end{tabular}
+\end{center}
+
+\newpage
+\begin{center}
+\renewcommand{\arraystretch}{1.4} 
+ \begin{tabular}{lrr}
+	\hline
+ & \multicolumn{2}{c}{\textbf{cplex}}\\
+\textbf{Instance}  & \textbf{Temps (s)} & \textbf{Optimal ?} \\\hline
+
+100x100x50\_9.txt & 0.10134 & false
+\\
+100x100x90\_1.txt & 0.07249 & false
+\\
+100x100x90\_10.txt & 0.07302 & false
+\\
+100x100x90\_2.txt & 0.09992 & false
+\\
+100x100x90\_3.txt & 0.09963 & false
+\\
+100x100x90\_4.txt & 0.06906 & false
+\\
+100x100x90\_5.txt & 0.06974 & false
+\\
+100x100x90\_6.txt & 0.09907 & false
+\\
+100x100x90\_7.txt & 0.10043 & false
+\\
+100x100x90\_8.txt & 0.07682 & false
+\\
+100x100x90\_9.txt & 0.06947 & false
+\\
+10x10x20\_1.txt & 0.00442 & true
+\\
+10x10x20\_10.txt & 0.00249 & false
+\\
+10x10x20\_2.txt & 0.00398 & false
+\\
+10x10x20\_3.txt & 0.00215 & false
+\\
+10x10x20\_4.txt & 0.00527 & true
+\\
+10x10x20\_5.txt & 0.01313 & true
+\\
+10x10x20\_6.txt & 0.00729 & true
+\\
+10x10x20\_7.txt & 0.00345 & false
+\\
+10x10x20\_8.txt & 0.00813 & true
+\\
+10x10x20\_9.txt & 0.00291 & false
+\\
+4x4x20\_1.txt & 0.00211 & true
+\\
+4x4x20\_10.txt & 0.0025 & true
+\\
+4x4x20\_2.txt & 0.00352 & true
+\\
+4x4x20\_3.txt & 0.00308 & true
+\\
+4x4x20\_4.txt & 0.00409 & true
+\\
+4x4x20\_5.txt & 0.00174 & true
+\\
+4x4x20\_6.txt & 0.00238 & true
+\\
+4x4x20\_7.txt & 0.00215 & true
+\\
+4x4x20\_8.txt & 0.00504 & true
+\\
+\hline\end{tabular}
+\end{center}
+
+\newpage
+\begin{center}
+\renewcommand{\arraystretch}{1.4} 
+ \begin{tabular}{lrr}
+	\hline
+ & \multicolumn{2}{c}{\textbf{cplex}}\\
+\textbf{Instance}  & \textbf{Temps (s)} & \textbf{Optimal ?} \\\hline
+
+4x4x20\_9.txt & 0.00315 & true
+\\
+\hline\end{tabular}
+\end{center}
+
+
+\end{document}
